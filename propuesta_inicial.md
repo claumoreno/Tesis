@@ -59,10 +59,10 @@ Determinar la relación entre la presencia de directores políticos en los direc
 ### 6.1 Muestra y período
 - **País:** Chile.
 - **Empresas:** sociedades anónimas abiertas no financieras que reportan a la CMF (Comisión para el Mercado Financiero). Se excluyen bancos, aseguradoras y AFP porque sus acumulaciones contables se comportan distinto. Se esperan entre 100 y 150 empresas, es decir, unas 1.500 observaciones empresa-año.
-- **Período sugerido:** de 2012 a 2025.
-  - Parte después de la adopción de IFRS en Chile (2009–2010), para no mezclar normas contables.
-  - Abarca **4 elecciones presidenciales y parlamentarias**: 2013, 2017, 2021 y 2025.
-  - Los estados financieros de 2025 ya están publicados.
+- **Período sugerido:** de 2010 a 2024, el mismo de la red de directores compartidos que construyó Alejandro Capllonch en su tesis guiada por el profesor Cid. Si esa base se puede reutilizar, se ahorra gran parte de la recolección.
+  - Parte con la adopción de IFRS en Chile (2009–2010), así que no se mezclan normas contables.
+  - Abarca **3 elecciones presidenciales y parlamentarias**: 2013, 2017 y 2021.
+  - Como alternativa, se puede extender hasta 2025 para sumar la elección de ese año.
 - **Unidad de análisis:** empresa-año (datos de panel).
 
 **Calendario electoral chileno a considerar** (verificar en Servel):
@@ -210,7 +210,8 @@ Son unas 24 semanas. Ojo con enero y febrero: el profesor puede tomar vacaciones
 ## 10. Decisiones pendientes con el profesor
 
 - [x] País: Chile
-- [ ] Período de estudio (sugerido: 2012–2025) y elecciones que se van a considerar
+- [ ] Período de estudio (sugerido: 2010–2024) y elecciones que se van a considerar
+- [ ] Acceso a la base de directores y red 2010–2024 de la tesis de Capllonch
 - [ ] Definición operativa de "director político"
 - [ ] Bases de datos financieras a las que tiene acceso la universidad
 - [ ] Medida principal de gestión de resultados (acumulaciones discrecionales, actividades reales o ambas)
