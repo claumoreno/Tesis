@@ -79,3 +79,61 @@ Durante la verificación aparecieron 23 directores con cargos públicos o víncu
 - **Empresas del Estado:** presidentes de Codelco, Metro y Enacar.
 
 Es un punto de partida, no una búsqueda exhaustiva: solo se revisaron los 217 RUTs con variantes de nombre. Para la etapa de pasado político hay que revisar los 2.676 RUTs.
+
+---
+
+# Pasado político de los directores
+
+Archivos:
+
+- `datos/pasado_politico.tsv`: un registro por director, con los cargos, los períodos, las fuentes y el nivel de confianza.
+- `scripts/integrar_pasado_politico.py`: agrega esa información a los dos Excel.
+
+## Qué contienen los Excel
+
+- **`maestro_directores_rut_verificado.xlsx`**, hoja `maestro_rut`: al lado de cada RUT y nombre hay seis columnas nuevas:
+  - `pasado_politico` (SÍ / No identificado)
+  - `tipo_cargo`
+  - `cargos_politicos` (cargo y período)
+  - `fuentes_cargo_politico` (URLs)
+  - `confianza_cargo` (alta / media)
+- Hoja **`pasado_politico`**: solo los 110 directores con pasado político identificado.
+- **`interlocking_db_nombres_corregidos.xlsx`**: las mismas columnas en cada fila de la base. Son 1.376 filas director-empresa-año.
+
+## Resultado: 110 de 2.676 directores (RUT)
+
+| Tipo de cargo (un director puede tener varios) | Directores |
+|---|---|
+| Ministro/a | 66 |
+| Directivo de empresa estatal (Codelco, BancoEstado, Corfo, ENAP, Metro, TVN, EFE, SEP) | 26 |
+| Banco Central / organismo autónomo (Contraloría, Servel, superintendencias, CNTV, Comisión de Productividad) | 22 |
+| Subsecretario/a | 15 |
+| Jefe de servicio público (Dipres, SII, Odeplan, SECOM, Fonasa) | 12 |
+| Parlamentario/a | 11 |
+| Alcalde / Intendente | 8 |
+| Cargo político en el extranjero (ministros españoles, Riksdag, FMI/BCE/BID) | 7 |
+| Embajador/a | 5 |
+| Convencional / proceso constituyente | 5 |
+
+## Cómo se hizo y cuáles son sus límites
+
+1. Desde este entorno solo hay acceso a un buscador web. Las bases oficiales (BCN, Cámara, Senado, Servel, InfoProbidad, Wikipedia) están bloqueadas, así que no se pudieron descargar las listas completas de cargos para cruzarlas por nombre.
+2. Por eso se trabajó en dos pasos:
+   - Se revisaron los 2.676 nombres y se seleccionaron unos 115 candidatos con probable trayectoria pública.
+   - Cada candidato se verificó con búsquedas web y se registraron el cargo, el período y las URLs. Los candidatos que no se pudieron confirmar no se incluyeron. Por ejemplo, Jorge Selume Zaror (posible director de Presupuestos), Jaime Arellano Quintana, Isidoro Palma como subsecretario, Ernesto Tironi y Sergio Baeza.
+3. **"No identificado" no significa "no tuvo cargo".** Esta revisión no captura bien:
+   - cargos regionales o municipales menores (concejales, seremis, gobernadores provinciales);
+   - funcionarios de segundo nivel (jefes de división, asesores);
+   - militancia partidaria sin cargo.
+4. **Para hacerlo exhaustivo** se recomienda cruzar los RUT o nombres con listas oficiales completas:
+   - BCN, reseñas parlamentarias: diputados y senadores desde 1990.
+   - Listas de ministros por cartera (Wikipedia / BCN).
+   - Servel: candidatos y electos, con RUT.
+   - InfoProbidad: declaraciones de autoridades, con RUT.
+
+   Si habilitas esos dominios en la configuración de red del entorno, se puede hacer ese cruce de forma sistemática.
+5. **Confianza:** "alta" significa cargo y período respaldados por fuentes concordantes. "Media" significa una sola fuente, o fechas no confirmadas.
+6. Casos a tener en cuenta:
+   - **Familiares de políticos** (los Ponce Pinochet, Tomic Errázuriz, Hurtado Vicuña, Matte, etc.): el parentesco no se registró como cargo político, salvo nota.
+   - Jorge Marshall Rivera: es muy probable, pero no está confirmado, que el director de Provida sea el exministro.
+   - En la base aparecen como "ADRIANA DEL PIANO PUELMA" y "RAPHAEL BERGOEING VEIA". Las fuentes los escriben DELPIANO y VELA, y la empresa calza en ambos casos.
