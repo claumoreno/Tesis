@@ -1,5 +1,7 @@
 # Verificación de nombres de directores por RUT
 
+> **Actualización:** ya se verificaron en internet los 217 RUTs con variantes de nombre. Ver `datos/RESULTADO_VERIFICACION.md` y `datos/maestro_directores_rut_verificado.xlsx`. Este documento describe el diagnóstico inicial.
+
 Archivos:
 
 - `datos/maestro_directores_rut.xlsx`: una fila por RUT, con diagnóstico de calidad.

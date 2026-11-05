@@ -62,6 +62,8 @@ for rut, g in ch.groupby("rut"):
     tipo = classify(variants)
     # candidato: el más completo (más palabras); empate -> el más frecuente
     cand = max(variants, key=lambda v: (len(v.split()), cnt[v]))
+    # se devuelve la forma original (conserva la Ñ) más frecuente para esa variante
+    cand = g[g.name_norm == cand].name_director.str.strip().value_counts().index[0]
     years = sorted(g.fiscal_year.str[2:].astype(int))
     rows.append(dict(
         rut=rut, rut_num=g.rut_num.iat[0], dv=g.dv.iat[0], dv_valido=bool(g.dv_valido.iat[0]),
