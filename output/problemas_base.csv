@@ -1,0 +1,26 @@
+﻿tipo,firm_iden,fiscal_year,detalle
+Fila duplicada en el cruce (mismo RUT con dos ID_persona),IAM.SN,FY2017,CARLOS RODRIGO MLADINIC ALONSO (6.100.558-7) aparece como P0137 'Carlos Mladinic Alonso'. Se unifican niveles con el máximo (mismo RUT = misma persona).
+Fila duplicada en el cruce (mismo RUT con dos ID_persona),IAM.SN,FY2017,CARLOS RODRIGO MLADINIC ALONSO (6.100.558-7) aparece como P0526 'Carlos Mladinich Alonso'. Se unifican niveles con el máximo (mismo RUT = misma persona).
+Fila duplicada en el cruce (mismo RUT con dos ID_persona),IAM.SN,FY2018,CARLOS RODRIGO MLADINIC ALONSO (6.100.558-7) aparece como P0137 'Carlos Mladinic Alonso'. Se unifican niveles con el máximo (mismo RUT = misma persona).
+Fila duplicada en el cruce (mismo RUT con dos ID_persona),IAM.SN,FY2018,CARLOS RODRIGO MLADINIC ALONSO (6.100.558-7) aparece como P0526 'Carlos Mladinich Alonso'. Se unifican niveles con el máximo (mismo RUT = misma persona).
+Persona del cruce que es CEO (se pierde al excluir CEO),LASCONDES.SN,FY2017,"JAIME JOSE MAÑALICH MUXI (7.155.618-2), pasado político = 1"
+Persona del cruce que es CEO (se pierde al excluir CEO),LASCONDES.SN,FY2018,"JAIME JOSE MAÑALICH MUXI (7.155.618-2), pasado político = 1"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2010,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2011,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2012,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2013,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2014,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2015,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2016,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2017,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2018,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2019,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2020,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2021,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2022,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2023,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+Persona del cruce que es CEO (se pierde al excluir CEO),QUINENCO.SN,FY2024,"JOSE FRANCISCO PEREZ MACKENNA (6.525.286-4), pasado político = 0"
+director_iden no es RUT válido ni nombre,FOSFOROS.SN,FY2013,GUSTAVO ALESSANDRI VALDES con director_iden '235-6'. Se trata como sin RUT y se usa el nombre como ID.
+RUT válido pero inusualmente bajo (6 dígitos); posible error de digitación,COPEC.SN,FY2010,CARLOS CROXATTO SILVA con RUT '401.301-8'. Se mantiene tal cual.
+Directores sin RUT con nombres parecidos (no se fusionan),,,'JON FERNANDEZ' y 'JOSE FERNANDEZ'
+Directores sin RUT con nombres parecidos (no se fusionan),,,'THOMAS O FLYNN' y 'TOM O FLYNN'

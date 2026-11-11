@@ -1,0 +1,49 @@
+﻿prueba,esperado,obtenido,ok,fuente_material
+Red 8 actores: n° enlaces,7.0,7.0,True,5.5
+Red 8 actores: densidad = 7/28,0.25,0.25,True,5.5 y error 1
+Red 8 actores: grado medio = 2L/n,1.75,1.75,True,5.6 y error 3
+Red 8 actores: grado medio = densidad*(n-1),1.75,1.75,True,error 3
+Red 8 actores: distancia geodésica media (130/56),2.32,2.3214,True,5.7
+Red 8 actores: diámetro,4.0,4.0,True,5.8
+Red 8 actores: compacidad = eficiencia global,0.5416666666666664,0.5417,True,5.8
+Red 8 actores: conectividad (red conexa),1.0,1.0,True,6.3
+Red 6 nodos: grado nodo 1,4.0,4.0,True,5.16
+Red 6 nodos: grado nodo 2,3.0,3.0,True,5.16
+Red 6 nodos: grado nodo 3,3.0,3.0,True,5.16
+Red 6 nodos: grado nodo 4,2.0,2.0,True,5.16
+Red 6 nodos: grado nodo 5,3.0,3.0,True,5.16
+Red 6 nodos: grado nodo 6,1.0,1.0,True,5.16
+Red 6 nodos: intermediación nodo 1,5.0,5.0,True,5.18 y error 11
+Red 6 nodos: intermediación nodo 2,0.667,0.6667,True,5.18 y error 11
+Red 6 nodos: intermediación nodo 3,0.667,0.6667,True,5.18 y error 11
+Red 6 nodos: intermediación nodo 4,0.667,0.6667,True,5.18 y error 11
+Red 6 nodos: intermediación nodo 5,1.0,1.0,True,5.18 y error 11
+Red 6 nodos: intermediación nodo 6,0.0,0.0,True,5.18 y error 11
+Red 6 nodos: lejanía nodo 1,6.0,6.0,True,5.17
+Red 6 nodos: lejanía nodo 2,7.0,7.0,True,5.17
+Red 6 nodos: lejanía nodo 3,7.0,7.0,True,5.17
+Red 6 nodos: lejanía nodo 4,8.0,8.0,True,5.17
+Red 6 nodos: lejanía nodo 5,8.0,8.0,True,5.17
+Red 6 nodos: lejanía nodo 6,10.0,10.0,True,5.17
+Red 6 nodos: intermediación normalizada nodo 1 = 5/10,0.5,0.5,True,5.18 (normalización UCINET)
+Red 6 nodos: nodo 1 es el más cercano (cercanía armónica máxima),1.0,1.0,True,5.17 y error 5
+Estrella de 5 nodos: centralización,1.0,1.0,True,pregunta de repaso 14
+Línea de 5 nodos: centralización,0.167,0.1667,True,5.12
+"Red de 7 nodos (grados 2,2,3,2,3,2,2): centralización",0.167,0.1667,True,5.12
+20 actores: n° de componentes,6.0,6.0,True,5.11
+20 actores: ratio de componentes (6-1)/(20-1),0.26,0.2632,True,5.11
+20 actores: % en componente principal,60.0,60.0,True,5.11
+20 actores: % aislados,20.0,20.0,True,5.10
+20 actores: conectividad = (66+6)/190,0.37894736842105264,0.3789,True,6.3
+10 actores y 9 relaciones: densidad,0.2,0.2,True,pregunta de repaso 8
+10 actores y 9 relaciones: grado medio,1.8,1.8,True,pregunta de repaso 9
+Proyección: diagonal UGT = n° de miembros,3.0,3.0,True,4.1
+Proyección: CCOO-UGT = 0 (nadie en ambos),0.0,0.0,True,4.1
+Proyección: Pedro-Pilar = 1,1.0,1.0,True,4.1
+Proyección: diagonal excluida (sin lazos),0.0,0.0,True,error 7
+Proyección: ACS-Acerinox = 2 directivos compartidos,2.0,2.0,True,4.1 (España)
+Proyección: ACS-Endesa = 1 directivo compartido,1.0,1.0,True,4.1 (España)
+RUT '15.548.765-8' se normaliza,1.0,1.0,True,
+RUT con dígito verificador erróneo no es válido,1.0,1.0,True,
+Nombre extranjero no es RUT,1.0,1.0,True,
+Nombre normalizado sin tildes,1.0,1.0,True,

@@ -1,0 +1,4255 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-11-11">
+    <creator>NetworkX 3.7</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="n_directores" type="long" />
+      <attribute id="1" title="n_politicos" type="long" />
+      <attribute id="2" title="pct_politicos" type="double" />
+      <attribute id="3" title="tiene_politico" type="long" />
+      <attribute id="4" title="pct_mujeres" type="double" />
+      <attribute id="5" title="grado" type="long" />
+      <attribute id="6" title="grado_ponderado" type="long" />
+      <attribute id="7" title="intermediacion_norm" type="double" />
+      <attribute id="8" title="cercania_armonica_norm" type="double" />
+      <attribute id="9" title="eigenvector_comp_principal" type="double" />
+      <attribute id="10" title="punto_corte" type="long" />
+      <attribute id="11" title="en_comp_principal" type="long" />
+      <attribute id="12" title="n_vecinos_con_politico" type="long" />
+      <attribute id="13" title="puente_politico" type="long" />
+      <attribute id="14" title="empresa_deslistada" type="long" />
+    </attributes>
+    <nodes>
+      <node id="AAISA.SN" label="Administradora Americana de Inversiones SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-210.79312812737646" y="342.48962911128837" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="12.5" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="25.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.14685846560846558" />
+          <attvalue for="9" value="0.00721196720211961" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ABC.SN" label="ABC SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-319.4022258110758" y="-73.24847709325833" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.16186728395061722" />
+          <attvalue for="9" value="0.0005093263947655535" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="AESANDES.SN^D24" label="AES Andes SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="89.46765123435945" y="-43.481538736789595" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.1833531746031746" />
+          <attvalue for="9" value="0.0006803922522505289" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="AFPCAPITAL.SN" label="AFP Capital SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-789.7600611932405" y="585.2876316022184" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="40.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="AGUASA.SN" label="Aguas Andinas SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="362.3537329644764" y="-119.26502233831988" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0026107779040739935" />
+          <attvalue for="8" value="0.15311067019400343" />
+          <attvalue for="9" value="7.778177856772402e-05" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ALMENDRAL.SN" label="Almendral SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="187.3537995977906" y="37.440591036263505" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="0.04213996535074487" />
+          <attvalue for="8" value="0.2331679894179894" />
+          <attvalue for="9" value="0.002082932526705205" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ANASAC.SN^D24" label="Agricola Nacional SAC e I">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="796.4941576377187" y="-578.1176509778902" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="ANDACOR.SN" label="Andacor SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-762.7584133801214" y="-566.5573482444181" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ANDINAB.SN" label="Embotelladora Andina SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="24.0" />
+        <viz:position x="22.567305545854115" y="-60.302391683439545" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="7.142857142857143" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="7.142857142857143" />
+          <attvalue for="5" value="10" />
+          <attvalue for="6" value="11" />
+          <attvalue for="7" value="0.08688014673080341" />
+          <attvalue for="8" value="0.2594973544973547" />
+          <attvalue for="9" value="0.005444053694931838" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ANTARCHILE.SN" label="Antarchile SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="-14.379259770784754" y="-196.321300658521" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="11" />
+          <attvalue for="7" value="0.0017310970290486125" />
+          <attvalue for="8" value="0.210813492063492" />
+          <attvalue for="9" value="0.0537743825203261" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="AQUACHILE.SN" label="Empresas Aquachile SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="-131.46247637783185" y="-174.94021428870843" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="30.0" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.04563817209068607" />
+          <attvalue for="8" value="0.20992724867724874" />
+          <attvalue for="9" value="0.0012959624607042362" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ATSA.SN" label="Automovilismo y Turismo SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-921.8691171260202" y="88.09250548823445" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="20.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="AZULAZUL.SN" label="Azul Azul SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-110.1531615713942" y="971.291906521948" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="9.090909090909092" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="18.181818181818183" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="BANVIDA.SN" label="Banvida SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="139.10541281536055" y="3.439125900383433" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.004006416026900198" />
+          <attvalue for="8" value="0.20872354497354498" />
+          <attvalue for="9" value="0.0012065673684544332" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="BCI.SN" label="Banco de Credito e Inversiones">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="-47.50066902528712" y="-278.99412221470607" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="11.11111111111111" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="11.11111111111111" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.010557870986176388" />
+          <attvalue for="8" value="0.20960097001763675" />
+          <attvalue for="9" value="0.024909870619385467" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="BESALCO.SN" label="Besalco SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="-36.22832144707455" y="-85.68062512769423" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.018799980847050347" />
+          <attvalue for="8" value="0.22357142857142867" />
+          <attvalue for="9" value="0.009652520229788677" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="BETLANDOS.SN^K24" label="Betlan Dos SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-459.2067764058886" y="-269.2223696922165" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.015766604593420237" />
+          <attvalue for="8" value="0.13627645502645494" />
+          <attvalue for="9" value="2.0900709895261258e-05" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="BICECORP.SN" label="Bicecorp SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="144.25194145926324" y="92.0039556496098" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="11.11111111111111" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="9" />
+          <attvalue for="7" value="0.05625521488347781" />
+          <attvalue for="8" value="0.2364484126984128" />
+          <attvalue for="9" value="0.0053832638540232056" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="BINT.SN" label="Banco Internacional SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="8.533341011921745" y="-194.86421993278992" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="22.22222222222222" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.007945375543140907" />
+          <attvalue for="8" value="0.2041468253968254" />
+          <attvalue for="9" value="0.04839135887510629" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="BLUMAR.SN" label="Blumar SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="592.8349655365631" y="319.62673769004414" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.10693362193362184" />
+          <attvalue for="9" value="1.077390114531774e-06" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="BOLSASTGO.SN" label="Bolsa de Comercio de Santiago Bolsa de Valores">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="424.6068508533391" y="-13.21373019922466" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.14767636684303342" />
+          <attvalue for="9" value="6.470941265578185e-05" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="BSANTANDER.SN" label="Banco Santander-Chile">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="-77.57246918504984" y="23.89635419262153" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="44.44444444444444" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="44.44444444444444" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.03104274848998623" />
+          <attvalue for="8" value="0.23227513227513236" />
+          <attvalue for="9" value="0.010523727018424049" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CALICHERAA.SN" label="Sociedad de Inversiones Pampa Calichera SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="-204.33684244135844" y="235.98265742048125" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="22" />
+          <attvalue for="7" value="0.0035709695588529078" />
+          <attvalue for="8" value="0.20935846560846558" />
+          <attvalue for="9" value="0.06694569588845684" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CAMANCHACA.SN" label="Camanchaca SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-317.13434527579795" y="-453.21790894162115" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.13134259259259254" />
+          <attvalue for="9" value="0.00015476529582090273" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CAMPOS.SN" label="Sociedad de Inversiones Campos Chilenos SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="919.9925756170742" y="56.35959346305133" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="20.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.008333333333333333" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CANALISTAS.SN" label="Sociedad de Canalistas la Foresta de Apoquindo SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="949.0172836602187" y="355.1396255196385" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CAP.SN" label="CAP SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="-106.36992389095597" y="-329.0876709897401" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="42.857142857142854" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="0.0005496930822815367" />
+          <attvalue for="8" value="0.1953946208112874" />
+          <attvalue for="9" value="0.013728010665420303" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CAROZZI.SN" label="Carozzi SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="-20.84649325706172" y="32.388958383981" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.015766604593420237" />
+          <attvalue for="8" value="0.1832076719576719" />
+          <attvalue for="9" value="0.04417258188490299" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CASABLANCA.SN" label="Energia de Casablanca SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-29.9630374368564" y="-934.0404705545037" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.011111111111111112" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CCU.SN" label="Compania Cervecerias Unidas SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="-228.92088158399335" y="84.32408052506878" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="22.22222222222222" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="11.11111111111111" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="10" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.19144841269841265" />
+          <attvalue for="9" value="0.06616797466114731" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CEMENTOS.SN" label="Cementos Bio Bio SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="152.54930388338136" y="-141.6231721321221" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.004280498673936877" />
+          <attvalue for="8" value="0.17925485008818332" />
+          <attvalue for="9" value="0.0071869869002316325" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CENCOMALLS.SN" label="Cencosud Shopping SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-64.26936649786141" y="89.37358310848902" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="16.666666666666668" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0028238893322692213" />
+          <attvalue for="8" value="0.1860978835978835" />
+          <attvalue for="9" value="0.0017786631371436079" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CENCOSUD.SN" label="Cencosud SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="-129.44682309457983" y="-7.048151323667538" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="11.11111111111111" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="33.333333333333336" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.004638275546096777" />
+          <attvalue for="8" value="0.20285052910052911" />
+          <attvalue for="9" value="0.003329867634785356" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CGE.SN" label="Compania General de Electricidad SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-636.6395572580088" y="743.8434619661693" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="20.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="20.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.005555555555555556" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CGET.SN" label="CGE Transmision SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-635.7651134246385" y="763.0938338141393" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="20.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="20.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.005555555555555556" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CHILE.SN" label="Banco de Chile">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="18.0" />
+        <viz:position x="-244.30351526738994" y="73.49892334789239" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="18.181818181818183" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="18.181818181818183" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="15" />
+          <attvalue for="7" value="0.01067113928059329" />
+          <attvalue for="8" value="0.20800925925925923" />
+          <attvalue for="9" value="0.07731451589464597" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="6" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CIC.SN" label="Companias CIC SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-317.81124994860033" y="-92.43545905683177" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.1618672839506172" />
+          <attvalue for="9" value="0.0005093263947655573" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CINTAC.SN" label="Cintac SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="22.0" />
+        <viz:position x="-126.70662739928265" y="-258.6789154219404" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="42.857142857142854" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="10" />
+          <attvalue for="7" value="0.06689021147007358" />
+          <attvalue for="8" value="0.2524735449735452" />
+          <attvalue for="9" value="0.06255201079103953" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CLUBUNION.SN" label="Union Inmobiliaria SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="665.5383511658174" y="-725.1993456607528" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="25.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CMPC.SN" label="Empresas CMPC SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="18.0" />
+        <viz:position x="272.0627035442244" y="69.96237447030146" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="33.333333333333336" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="11" />
+          <attvalue for="7" value="0.031953313170724716" />
+          <attvalue for="8" value="0.20787257495590825" />
+          <attvalue for="9" value="0.0012906563848503483" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="COLBUN.SN" label="Colbun SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="16.0" />
+        <viz:position x="217.74542989663973" y="50.20180244211146" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="11.11111111111111" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="33.333333333333336" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="9" />
+          <attvalue for="7" value="0.009492537263944372" />
+          <attvalue for="8" value="0.1995767195767195" />
+          <attvalue for="9" value="0.001572589556325756" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="COLCRAIGB.SN" label="Craighouse School">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-274.1604067731485" y="-915.9300402763018" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="20.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="COLINSE.SN" label="Colegio Ingles Catolico de la Serena SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-680.5202949389526" y="-636.1671340707046" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="16.666666666666668" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="COLOCOLO.SN" label="Blanco y Negro SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="745.398649300661" y="648.8758582920588" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="22.22222222222222" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CONCHATORO.SN" label="Concha y Toro Winery Inc">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="22.0" />
+        <viz:position x="-143.29285708711083" y="184.92392868378812" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="12" />
+          <attvalue for="7" value="0.03160949102471351" />
+          <attvalue for="8" value="0.2267328042328043" />
+          <attvalue for="9" value="0.05996256504242572" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CONSOGRAL.SN" label="Zurich Chile Seguros Generales SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-844.2213683528691" y="466.8763211087268" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="60.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="COPEC.SN" label="Empresas Copec SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="16.0" />
+        <viz:position x="23.34557789789601" y="-173.6004722815905" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="13" />
+          <attvalue for="7" value="0.02826871399987153" />
+          <attvalue for="8" value="0.23080687830687832" />
+          <attvalue for="9" value="0.056410804612433446" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="COPEVAL.SN" label="Compania Agropecuaria COPEVAL SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-240.31164745232545" y="-8.396805365855897" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.1704365079365079" />
+          <attvalue for="9" value="0.0013264771802029818" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="COUNTRYA.SN" label="Prince Of Wales Country Club SA Inmobiliaria">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="190.73400356105262" y="-894.3044722953285" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.005555555555555556" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="COVADONGA.SN" label="Inversiones Covadonga SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="-130.33231574802292" y="-226.6280563827812" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="16" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.17687169312169304" />
+          <attvalue for="9" value="0.07979350571148289" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CRISTALES.SN" label="Cristalerias de Chile SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="30.0" />
+        <viz:position x="-103.7990309653946" y="-87.09662349697196" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="13" />
+          <attvalue for="6" value="25" />
+          <attvalue for="7" value="0.10519577066542769" />
+          <attvalue for="8" value="0.2783994708994711" />
+          <attvalue for="9" value="0.35424231460019806" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CRUZADOS.SN" label="Cruzados SADP">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-283.7909531306262" y="-24.3391762863456" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="18.181818181818183" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.005021340133071976" />
+          <attvalue for="8" value="0.16942901234567892" />
+          <attvalue for="9" value="0.009947198222977776" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CTC.SN" label="Telefonica Chile SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="876.7818438186501" y="-462.24354088978885" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="20.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="CUPRUM.SN" label="AFP Cuprum SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-300.9370009642992" y="922.2511023997924" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="42.857142857142854" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="DEHESA.SN" label="Inmobiliaria de Deportes la Dehesa SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="210.74334663266995" y="-113.23037197856989" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.17646825396825386" />
+          <attvalue for="9" value="0.002067697165368679" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="DUNCANFOX.SN" label="Duncan Fox SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-595.9503594188301" y="-732.4549479757818" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ECL.SN" label="ENGIE Energia Chile SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="845.3093471136771" y="558.3687369157785" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="EDELMAG.SN" label="Empresa Electrica de Magallanes SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="269.88562246376284" y="958.0980767376029" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="EDELPA.SN" label="Envases del Pacifico SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="105.19093780778111" y="-271.4421863743761" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.007945375543140907" />
+          <attvalue for="8" value="0.18215608465608454" />
+          <attvalue for="9" value="0.0012207735057158412" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="EISA.SN" label="Echeverria Izquierdo SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-259.412637231612" y="16.074721221971494" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.1739087301587301" />
+          <attvalue for="9" value="0.02841740332354359" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ELECMETAL.SN" label="Compania Electro Metalurgica SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="26.0" />
+        <viz:position x="-105.88017566786097" y="-68.52990638562578" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="11" />
+          <attvalue for="6" value="22" />
+          <attvalue for="7" value="0.02911284083468216" />
+          <attvalue for="8" value="0.24930996472663153" />
+          <attvalue for="9" value="0.340821791159273" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="EMBONORB.SN" label="Coca Cola Embonor SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="18.0" />
+        <viz:position x="-209.063219149073" y="-74.56345667354881" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="0.023587833643699565" />
+          <attvalue for="8" value="0.21400132275132278" />
+          <attvalue for="9" value="0.003565970218589625" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="EMILIANA.SN" label="Vinedos Emiliana SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="-175.45949300479774" y="248.81978781679305" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="11" />
+          <attvalue for="7" value="0.007945375543140907" />
+          <attvalue for="8" value="0.19598544973544962" />
+          <attvalue for="9" value="0.05770544353578218" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ENAEX.SN" label="Enaex SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="61.27373857120129" y="172.1971335623303" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="0.01744086246879543" />
+          <attvalue for="8" value="0.20632495590828925" />
+          <attvalue for="9" value="0.00910814107408579" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ENELAM.SN" label="Enel Americas SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="94.39463802366541" y="-110.10747179891816" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.1833531746031746" />
+          <attvalue for="9" value="0.0006803922522505289" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ENELCHILE.SN" label="Enel Chile SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="251.41346940093106" y="-228.84597815109615" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.14940035273368601" />
+          <attvalue for="9" value="9.784398292715742e-05" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ENELDXCH.SN" label="Enel Distribucion Chile SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-169.92653669494788" y="-358.1523525975255" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="20.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="40.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.17949514991181645" />
+          <attvalue for="9" value="0.00781768621138617" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ENELGXCH.SN" label="Enel Generacion Chile SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="980.9951504841137" y="-179.29924320730325" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="50.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ENJOY.SN" label="Enjoy SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="24.0" />
+        <viz:position x="-136.81006088642144" y="-129.6859359697328" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="11.11111111111111" />
+          <attvalue for="5" value="10" />
+          <attvalue for="6" value="10" />
+          <attvalue for="7" value="0.07104394018153043" />
+          <attvalue for="8" value="0.25779100529100535" />
+          <attvalue for="9" value="0.014251156677213175" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ENLASA.SN" label="Energia Latina SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="74.42400488755713" y="185.83951346295538" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.007945375543140907" />
+          <attvalue for="8" value="0.19067680776014104" />
+          <attvalue for="9" value="0.007533568081250566" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ENTEL.SN" label="Empresa Nacional de Telecomunicaciones SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="148.21374617765022" y="47.91476668803117" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="11.11111111111111" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="9" />
+          <attvalue for="7" value="0.03606966591415612" />
+          <attvalue for="8" value="0.23331349206349208" />
+          <attvalue for="9" value="0.0024208951203015337" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ESPANOLA.SN" label="Compania de Inversiones la Espanola SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="16.0" />
+        <viz:position x="-123.37430311861796" y="-167.06517344362445" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="71.42857142857143" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="0.006721045835493142" />
+          <attvalue for="8" value="0.20991843033509708" />
+          <attvalue for="9" value="0.1570113040975973" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ESPANOLVAL.SN" label="Club Espanol de Valparaiso SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-480.3091987464075" y="-827.1398429515326" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="11.11111111111111" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ESSBIOC.SN" label="Essbio SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="-122.94330334449877" y="-37.73523364850003" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="33.333333333333336" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="44.44444444444444" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="14" />
+          <attvalue for="7" value="0.005651060609161168" />
+          <attvalue for="8" value="0.22034391534391537" />
+          <attvalue for="9" value="0.004572420044968849" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ESTACIONAM.SN" label="Inmobiliaria Central de Estacionamientos Agustinas SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-919.907550233088" y="-261.48904475977946" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="20.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ESVALC.SN" label="Esval SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="-114.25758013937786" y="-42.99954827824067" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="37.5" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="37.5" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="14" />
+          <attvalue for="7" value="0.005651060609161168" />
+          <attvalue for="8" value="0.22034391534391537" />
+          <attvalue for="9" value="0.004572420044968843" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="FALABELLA.SN" label="Falabella SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-47.10641064720096" y="-460.7196662182422" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="11.11111111111111" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.14989417989417983" />
+          <attvalue for="9" value="0.0016056399214971226" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="FEPASA.SN" label="Ferrocarril del Pacifico SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="10.463130571512547" y="83.07457420644559" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="0.04930948508844485" />
+          <attvalue for="8" value="0.23382495590828936" />
+          <attvalue for="9" value="0.04900633862503545" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="FERIAOSOR.SN" label="Feria de Osorno SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="929.9225855864919" y="97.61976517346879" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.008333333333333333" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="FORUS.SN" label="Forus SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="-165.14841416281266" y="-27.368745726280018" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="0.009550273145204133" />
+          <attvalue for="8" value="0.21810626102292774" />
+          <attvalue for="9" value="0.14224935798806781" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="FOSFOROS.SN" label="Compania Chilena de Fosforos SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-160.58151640901008" y="926.3819564399856" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.013888888888888888" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="FROWARD.SN" label="Portuaria Cabo Froward SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="-126.69818714078635" y="930.9129157299309" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="3.1036623215394166e-05" />
+          <attvalue for="8" value="0.016666666666666666" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="GASCO.SN" label="Empresas Gasco SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="146.42722844781775" y="232.0445651674195" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.013833708191250089" />
+          <attvalue for="8" value="0.181358024691358" />
+          <attvalue for="9" value="0.0007159898276554901" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="GASCOINV.SN" label="Gasco Inversiones SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="135.61302682948926" y="277.12631750297504" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.14178350970017628" />
+          <attvalue for="9" value="8.948367498294043e-05" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="GOLF.SN" label="Deportes Club de Golf Santiago SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-308.6804024404412" y="-117.67774685715746" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.15908950617283943" />
+          <attvalue for="9" value="0.0004456713038564038" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="GRANADILLA.SN" label="Granadilla Country Club SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="36.156701730867766" y="99.00277761479566" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.14514369889369882" />
+          <attvalue for="9" value="0.006309155853752928" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="HABITAT.SN" label="AFP Habitat SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="593.6113466031284" y="-678.5434085690872" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="50.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.011111111111111112" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="HFA.SN^E24" label="Hortifrut SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="47.96105451527745" y="-293.6488671050869" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="11.11111111111111" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.1562037037037036" />
+          <attvalue for="9" value="0.006047902445405493" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="1" />
+        </attvalues>
+      </node>
+      <node id="HIPERMARC.SN" label="Hipermarc SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="914.5462885809944" y="-318.2376449664622" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="HIPICO.SN" label="Club Hipico de Santiago SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-308.3764871771016" y="-234.8975141574232" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="11.11111111111111" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.02346368715083799" />
+          <attvalue for="8" value="0.1633355379188712" />
+          <attvalue for="9" value="0.00016458020966692385" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="HIPODROMOA.SN" label="Sociedad Hipodromo Chile SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="74.88548771359669" y="268.5834365823553" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="11.11111111111111" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.003537637615849907" />
+          <attvalue for="8" value="0.16671516754850074" />
+          <attvalue for="9" value="0.0013334322934550856" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="HITES.SN" label="Empresas Hites SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="122.43538986205105" y="-143.97577795173729" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.19506613756613755" />
+          <attvalue for="9" value="0.008513039378733066" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="IAM.SN" label="Inversiones Aguas Metropolitanas SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="251.11152345228066" y="-151.27548927895222" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.017122098881875422" />
+          <attvalue for="8" value="0.18200396825396825" />
+          <attvalue for="9" value="0.0005490083674820775" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="IANSA.SN" label="Empresas Iansa SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="962.0159249914083" y="67.29121271777787" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="6.207324643078833e-05" />
+          <attvalue for="8" value="0.011111111111111112" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ILC.SN" label="Inversiones la Construccion SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="99.1835722367224" y="303.8279199746538" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="28.571428571428573" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.001584050131536165" />
+          <attvalue for="8" value="0.1560934744268077" />
+          <attvalue for="9" value="0.00025613467664593436" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="INDISA.SN" label="Instituto de Diagnostico SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="-84.15204761812726" y="-166.3254669770549" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="22.22222222222222" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.01840431216827865" />
+          <attvalue for="8" value="0.20284391534391533" />
+          <attvalue for="9" value="0.008267520666757225" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="INGEVEC.SN" label="Ingevec SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="971.531476436554" y="240.59685522455487" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="INMOBVINA.SN" label="Sociedad Inmobiliaria Vina del Mar SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-856.8265771135373" y="-355.2072976575941" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="INVERCAP.SN" label="Invercap SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-128.91867302455685" y="-353.89807636233695" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.18227292768959424" />
+          <attvalue for="9" value="0.00953339891720685" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="INVERNOVA.SN" label="Invernova SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="305.7754355643034" y="118.99224093285166" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.02346368715083799" />
+          <attvalue for="8" value="0.18819444444444436" />
+          <attvalue for="9" value="0.0005346610359672803" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="INVIESPA.SN" label="Inversiones Union Espanola SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="-139.2910839772398" y="-215.98062644312415" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="16" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.17687169312169307" />
+          <attvalue for="9" value="0.07979350571148283" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="IPAL.SN" label="Ipal SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-494.6274757079117" y="853.2105876249987" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="40.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ISANPA.SN" label="Inmobiliaria San Patricio SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-173.33987772047573" y="-72.95641135611466" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.16650132275132268" />
+          <attvalue for="9" value="0.00042172630911147414" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ITAUCL.SN" label="Banco Itau Chile">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-228.4975700415185" y="-187.73077325588687" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.1823412698412698" />
+          <attvalue for="9" value="0.0017810949583048942" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="LASCONDES.SN" label="Clinica las Condes SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="50.59258383956504" y="266.5598248034764" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.16078924162257482" />
+          <attvalue for="9" value="0.0013049771399562167" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="LIPIGAS.SN" label="Empresas Lipigas SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="523.6529958657077" y="272.39475964131924" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.007945375543140907" />
+          <attvalue for="8" value="0.12713183421516744" />
+          <attvalue for="9" value="8.620570875883514e-06" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="LITORAL TRANSMISION SA" label="Litoral Transmision SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-15.687598542643833" y="-934.1666016616059" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="9" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.011111111111111112" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="LITORAL.SN" label="Compania Electrica del Litoral SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-2.298361187423382" y="-931.9756362501386" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="9" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.011111111111111112" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="LTM.SN" label="LATAM Airlines Group SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-323.0054190640629" y="226.069706753694" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="11.11111111111111" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.15815476190476188" />
+          <attvalue for="9" value="0.011296433893982298" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MAISONNETT.SN" label="Colegio La Maisonnette SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="392.9851410225065" y="915.7802794048256" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="42.857142857142854" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MALLPLAZA.SN" label="Plaza SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="-77.54637439847536" y="-363.8393872095971" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.007945375543140907" />
+          <attvalue for="8" value="0.19539462081128742" />
+          <attvalue for="9" value="0.012847280254064161" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MANQUEHUE.SN" label="Inmobiliaria Manquehue SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-210.41708690936318" y="-248.4703273760916" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.15750220458553785" />
+          <attvalue for="9" value="0.00016196806036125537" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MARBELLACC.SN" label="Marbella Country Club SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-815.1510230806567" y="-466.87882020013285" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MARGARETS.SN" label="St Margaret's British School for Girls">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="1000.0" y="-31.607948511849248" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="42.857142857142854" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MARINSA.SN" label="Maritima de Inversiones SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="18.0" />
+        <viz:position x="-102.86708819559054" y="-113.67548724147281" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="14" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.2248655202821871" />
+          <attvalue for="9" value="0.27782016619749583" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MASISA.SN" label="Masisa SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="16.0" />
+        <viz:position x="-181.12827009129057" y="-49.91690374309714" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="0.030352586492977004" />
+          <attvalue for="8" value="0.23167989417989424" />
+          <attvalue for="9" value="0.0106136026244282" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MELON.SN" label="Melon SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="-127.94965578919737" y="-60.269436054900645" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="0.02683917761664503" />
+          <attvalue for="8" value="0.2241269841269842" />
+          <attvalue for="9" value="0.0033743780352792113" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MINERA.SN" label="Minera Valparaiso SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="16.0" />
+        <viz:position x="229.29847483517537" y="72.24732054469293" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="13" />
+          <attvalue for="7" value="0.005773322261160807" />
+          <attvalue for="8" value="0.21609126984126983" />
+          <attvalue for="9" value="0.0018211266509262243" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MOLLER.SN" label="Empresa Constructora Moller y Perez Cotapos SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-215.943761898053" y="-118.38155570013195" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.006348874847478199" />
+          <attvalue for="8" value="0.1679431216931216" />
+          <attvalue for="9" value="0.0022764569021489324" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MOLYMET.SN" label="Molibdenos y Metales SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="165.59651892205267" y="-41.97023039090646" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="10.0" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.027529186965872254" />
+          <attvalue for="8" value="0.21747354497354504" />
+          <attvalue for="9" value="0.003983304862793635" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="MULTIX.SN" label="Multiexport Foods SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-240.76078594964014" y="272.14411820709995" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.007945375543140907" />
+          <attvalue for="8" value="0.15088443963443957" />
+          <attvalue for="9" value="0.008521011475209327" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="NAVARINO.SN" label="Navarino SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="26.0" />
+        <viz:position x="-112.53342371254709" y="-144.28599087760205" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="11" />
+          <attvalue for="6" value="15" />
+          <attvalue for="7" value="0.017205955847560673" />
+          <attvalue for="8" value="0.2359766313932982" />
+          <attvalue for="9" value="0.321857116861717" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="NAVIERA.SN" label="Grupo Empresas Navieras SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="-137.39442961131317" y="966.0798567344439" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="3.1036623215394166e-05" />
+          <attvalue for="8" value="0.016666666666666666" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="NIBSA.SN" label="Nibsa SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="171.2309408347559" y="-349.10291399051533" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.14423280423280418" />
+          <attvalue for="9" value="0.000152571021813204" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="NITRATOS.SN" label="Nitratos de Chile SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="-205.50624527674162" y="217.26105082668332" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="21" />
+          <attvalue for="7" value="0.0035709695588529078" />
+          <attvalue for="8" value="0.20935846560846558" />
+          <attvalue for="9" value="0.06694569588845688" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="NORTEGRAN.SN" label="Norte Grande SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="-212.45601224947697" y="226.79014618908076" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="20" />
+          <attvalue for="7" value="0.0035709695588529078" />
+          <attvalue for="8" value="0.20935846560846558" />
+          <attvalue for="9" value="0.06694569588845685" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="NTGCLGAS.SN" label="Naturgy Chile Gas Natural SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="575.9530654325708" y="144.72383003071576" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="40.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.10986832611832603" />
+          <attvalue for="9" value="2.6007887928160203e-06" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="NUAM.SN" label="Holding Bursatil Regional SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="408.84701258201517" y="-40.59603456102661" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="6" />
+          <attvalue for="7" value="0.002673885704611961" />
+          <attvalue for="8" value="0.1552557319223985" />
+          <attvalue for="9" value="7.335054035291382e-05" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="NUTRAVALOR.SN" label="Inversiones Nutravalor SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="-21.924343125983626" y="-166.69718036673194" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="0.020526090708635047" />
+          <attvalue for="8" value="0.22312169312169325" />
+          <attvalue for="9" value="0.05299785089134524" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="OLDBOYS.SN" label="Old Grangonian Club SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="203.09993180942143" y="-936.8349846600065" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.005555555555555556" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="OROBLANCO.SN" label="Sociedad de Inversiones Oro Blanco SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="-193.1519168004015" y="220.14512476475164" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="19" />
+          <attvalue for="7" value="0.0035709695588529078" />
+          <attvalue for="8" value="0.20935846560846558" />
+          <attvalue for="9" value="0.06694569588845688" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="OXIQUIM.SN" label="Oxiquim SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-940.2175964348304" y="-58.83637768749607" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.005555555555555556" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="PARAUCO.SN" label="Parque Arauco SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="19.000198760880966" y="-154.6663453387661" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="11.11111111111111" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.045433638387753175" />
+          <attvalue for="8" value="0.244351851851852" />
+          <attvalue for="9" value="0.009615259949930469" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="PASUR.SN" label="Forestal Constructora y Comercial del Pacifico Sur SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="16.0" />
+        <viz:position x="223.5652316613177" y="81.99698810844768" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="13" />
+          <attvalue for="7" value="0.005773322261160807" />
+          <attvalue for="8" value="0.21609126984126983" />
+          <attvalue for="9" value="0.001821126650926217" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="PAZ.SN" label="Paz Corp SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="18.0" />
+        <viz:position x="121.10511451806396" y="-74.22528509513334" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="0.05205454326505324" />
+          <attvalue for="8" value="0.24325396825396833" />
+          <attvalue for="9" value="0.016544360045094367" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="PEHUENCHE.SN" label="Empresa Electrica Pehuenche SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="600.7415817512862" y="804.8955144467932" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="40.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="PLANVITAL.SN" label="AFP Planvital SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="508.72729498563575" y="876.9430639393969" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="12.5" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="POLO.SN" label="Club de Polo y Equitacion San Cristobal SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="80.78571127712597" y="291.60848854867413" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.14854056437389762" />
+          <attvalue for="9" value="0.0009415376191194843" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="POLPAICO.SN" label="Cemento Polpaico SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="426.4678692487671" y="204.61316569416968" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.015766604593420237" />
+          <attvalue for="8" value="0.15121913580246912" />
+          <attvalue for="9" value="6.789877852057709e-05" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="POTASIOSA.SN" label="Potasios de Chile SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="-193.6814970741415" y="232.41017211925222" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="22" />
+          <attvalue for="7" value="0.0035709695588529078" />
+          <attvalue for="8" value="0.20935846560846558" />
+          <attvalue for="9" value="0.0669456958884569" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="PREVISION.SN" label="Seguros Vida Security Prevision SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="490.72768160084047" y="125.5983650398056" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.007945375543140907" />
+          <attvalue for="8" value="0.1317153679653679" />
+          <attvalue for="9" value="2.0809810503375424e-05" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="PROVIDA.SN" label="AFP Provida SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="-162.4224862087093" y="57.00355415167127" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="60.0" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="40.0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.009624502711437206" />
+          <attvalue for="8" value="0.20793650793650797" />
+          <attvalue for="9" value="0.009224220455986493" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="PUCOBRE.SN" label="Sociedad Punta Del Cobre SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="16.0" />
+        <viz:position x="216.65804867659736" y="62.076814949845016" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="0.04081575895944221" />
+          <attvalue for="8" value="0.2221428571428572" />
+          <attvalue for="9" value="0.0021271765332909246" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="PUNTILLA.SN" label="Electrica Puntilla SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-672.921148178233" y="645.7864524981029" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="16.666666666666668" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="QUEMCHI.SN" label="Quemchi SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="20.0" />
+        <viz:position x="-118.74600681944428" y="-87.42890437140181" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="8" />
+          <attvalue for="6" value="17" />
+          <attvalue for="7" value="0.002754989398652451" />
+          <attvalue for="8" value="0.23819885361552046" />
+          <attvalue for="9" value="0.3026682470872021" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="QUILICURA.SN" label="Quilicura SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="18.0" />
+        <viz:position x="-85.94107239116242" y="-118.38200427281673" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="20.0" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="8" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.2248655202821871" />
+          <attvalue for="9" value="0.27782016619749583" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="QUINENCO.SN" label="Quinenco SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="16.0" />
+        <viz:position x="-242.28515022439936" y="94.33493149686332" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="12.5" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="12.5" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="9" />
+          <attvalue for="7" value="0.0017920076011822801" />
+          <attvalue for="8" value="0.20228174603174603" />
+          <attvalue for="9" value="0.07620943689470343" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="5" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="REBRISAA.SN" label="Rebrisa SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-670.3931244565136" y="-282.2239777341603" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.09933040724707382" />
+          <attvalue for="9" value="3.316439370301373e-07" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="RIPLEY.SN" label="Ripley Corp SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="3.8399181524696666" y="-220.43293881873095" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="11.11111111111111" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="33.333333333333336" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.013295475474246423" />
+          <attvalue for="8" value="0.18698412698412692" />
+          <attvalue for="9" value="0.0012244638012635603" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SALFACORP.SN" label="SalfaCorp SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="-204.41043672083845" y="-279.67727237684" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.015766604593420237" />
+          <attvalue for="8" value="0.2094179894179894" />
+          <attvalue for="9" value="0.009753546465511971" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SALMOCAM.SN" label="Salmones Camanchaca SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-280.1225559646089" y="-395.3009005138343" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.007945375543140907" />
+          <attvalue for="8" value="0.16261684303350962" />
+          <attvalue for="9" value="0.00123833065084749" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SANTARITA.SN" label="Vina Santa Rita SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="26.0" />
+        <viz:position x="-83.42811661908435" y="-89.8528439078575" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="11" />
+          <attvalue for="6" value="20" />
+          <attvalue for="7" value="0.04068945732824687" />
+          <attvalue for="8" value="0.25927910052910064" />
+          <attvalue for="9" value="0.32957668210813235" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SCHWAGER.SN" label="Schwager Energy SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-95.71282888618819" y="978.01472656436" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.013888888888888888" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SCOTIABKCL.SN" label="Scotiabank Chile">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="82.77721346798906" y="-85.14414933812718" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="42.857142857142854" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.015238292296020417" />
+          <attvalue for="8" value="0.22903439153439165" />
+          <attvalue for="9" value="0.004447624113413574" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SECURITY.SN" label="Grupo Security SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="420.7000615236403" y="108.83674927192732" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.015766604593420237" />
+          <attvalue for="8" value="0.15940476190476188" />
+          <attvalue for="9" value="0.00016390570123099942" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SIEMEL.SN" label="Inversiones Siemel SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="24.0" />
+        <viz:position x="-48.113160302891245" y="-143.73158653484992" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="10" />
+          <attvalue for="6" value="15" />
+          <attvalue for="7" value="0.028514221783603338" />
+          <attvalue for="8" value="0.24761243386243395" />
+          <attvalue for="9" value="0.295948904001343" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SK.SN" label="Sigdo Koppers SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="16.0" />
+        <viz:position x="104.84986010369123" y="100.57162451018563" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="0.0458439225676803" />
+          <attvalue for="8" value="0.2293584656084657" />
+          <attvalue for="9" value="0.010330807137517856" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SMSAAM.SN" label="Sociedad Matriz SAAM SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="18.0" />
+        <viz:position x="-231.83547829670644" y="53.42449745299717" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="7" />
+          <attvalue for="6" value="9" />
+          <attvalue for="7" value="0.0021932696057538376" />
+          <attvalue for="8" value="0.19700396825396818" />
+          <attvalue for="9" value="0.0851281129519478" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="6" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SMU.SN" label="SMU SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="-168.39575576188932" y="-155.13986237520245" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="11.11111111111111" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="33.333333333333336" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.015085679112475587" />
+          <attvalue for="8" value="0.22484126984126995" />
+          <attvalue for="9" value="0.053417004876905524" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SOCOVESA.SN" label="Socovesa SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-934.3390412462758" y="-91.79596797025906" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.005555555555555556" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SOFRUCO.SN" label="Sociedad Agricola la Rosa Sofruco SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="-23.201932958616858" y="165.554025078966" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.02749113016107261" />
+          <attvalue for="8" value="0.21840608465608471" />
+          <attvalue for="9" value="0.017005371394312352" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SONDA.SN" label="Sonda SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="42.153200715898514" y="-128.39318508232284" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="5" />
+          <attvalue for="7" value="0.04101490603920447" />
+          <attvalue for="8" value="0.23812169312169326" />
+          <attvalue for="9" value="0.0515714118961581" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SOPROCAL.SN" label="Soprocal Calerias e Industrias SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="572.7642968980914" y="-629.3815675255935" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.011111111111111112" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SOQUICOM.SN" label="Soquimich Comercial SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="664.059185023959" y="700.2814197595084" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SPORTFRAN.SN" label="SA Inmobiliaria Sport Francais">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="6.0" />
+        <viz:position x="-223.90167330054152" y="379.96267557966644" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="22.22222222222222" />
+          <attvalue for="5" value="1" />
+          <attvalue for="6" value="1" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.12248737373737367" />
+          <attvalue for="9" value="0.0010649472826595307" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SPORTING.SN" label="Valparaiso Sporting Club SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="20.535631418069883" y="67.61320590012754" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.14514369889369882" />
+          <attvalue for="9" value="0.006309155853752924" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SQMB.SN" label="Sociedad Quimica y Minera de Chile SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="22.0" />
+        <viz:position x="-235.57205585290004" y="166.72061669579028" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="12.5" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="25.0" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="9" />
+          <attvalue for="7" value="0.03243160319969779" />
+          <attvalue for="8" value="0.21689814814814817" />
+          <attvalue for="9" value="0.09038667397618048" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="STMCHB.SN" label="Sociedad de Transmision Metropolitana II SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="-62.90042065722311" y="-31.59346659257773" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="12.5" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="37.5" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="9" />
+          <attvalue for="7" value="0.025429289985874664" />
+          <attvalue for="8" value="0.2231150793650795" />
+          <attvalue for="9" value="0.0036722399972851424" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="3" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SUDMEDICA.SN" label="Sudmedica Quillota SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="896.0887119859445" y="446.31351169174053" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="20.0" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="SURALIS SA" label="Empresa de Servicios Sanitarios de Los Lagos S.A">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="226.9756271112446" y="-56.57073737832551" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="20.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.002516333120199631" />
+          <attvalue for="8" value="0.16965167548500876" />
+          <attvalue for="9" value="0.0010947628895699895" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="TRICAHUE.SN" label="Inversiones Tricahue SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="-581.7334583825232" y="-284.56804436751537" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.007945375543140907" />
+          <attvalue for="8" value="0.11683662016995344" />
+          <attvalue for="9" value="2.6535978250826924e-06" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="TRICOT.SN" label="Empresas Tricot SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="8.0" />
+        <viz:position x="546.4173528276303" y="-637.2126824502178" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="25.0" />
+          <attvalue for="5" value="2" />
+          <attvalue for="6" value="2" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.011111111111111112" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="UNESPA.SN" label="Inversiones Unespa SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="-148.10572427782927" y="-225.02279307237418" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="28.571428571428573" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="16" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.17687169312169307" />
+          <attvalue for="9" value="0.07979350571148285" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="UNIONGOLF.SN" label="Union el Golf SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="162.31280164098183" y="-221.72900264785738" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.004853315006946294" />
+          <attvalue for="8" value="0.16588624338624336" />
+          <attvalue for="9" value="0.00023387517509145347" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="VAPORES.SN" label="Compania Sud Americana de Vapores SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="24.0" />
+        <viz:position x="-187.515828641405" y="32.549246670089836" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="28.571428571428573" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="10" />
+          <attvalue for="6" value="15" />
+          <attvalue for="7" value="0.06371948750646864" />
+          <attvalue for="8" value="0.24699514991181667" />
+          <attvalue for="9" value="0.2236661687384796" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="6" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="VENTANAS.SN" label="Puerto Ventanas SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="14.0" />
+        <viz:position x="23.100277474853243" y="135.34032977964267" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="5" />
+          <attvalue for="6" value="7" />
+          <attvalue for="7" value="0.01600770828451182" />
+          <attvalue for="8" value="0.21882495590828935" />
+          <attvalue for="9" value="0.010901831200374705" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="VICONTO.SN" label="Fruticola Viconto SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="22.0" />
+        <viz:position x="-155.87940724978347" y="197.02705007163036" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="9" />
+          <attvalue for="6" value="13" />
+          <attvalue for="7" value="0.018982890099467225" />
+          <attvalue for="8" value="0.2192791005291006" />
+          <attvalue for="9" value="0.05981819701232855" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="1" />
+          <attvalue for="13" value="1" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="VOLCAN.SN" label="Compania Industrial el Volcan SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="10.0" />
+        <viz:position x="198.7079269979986" y="103.36696125766161" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="14.285714285714286" />
+          <attvalue for="5" value="3" />
+          <attvalue for="6" value="3" />
+          <attvalue for="7" value="0.0004242701914955174" />
+          <attvalue for="8" value="0.19443121693121695" />
+          <attvalue for="9" value="0.001171896422971617" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="2" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="VSPT.SN" label="Vina San Pedro Tarapaca SA">
+        <viz:color r="235" g="104" b="52" a="1.0" />
+        <viz:size value="16.0" />
+        <viz:position x="-233.13185835889794" y="118.7050597724071" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="14.285714285714286" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="6" />
+          <attvalue for="6" value="11" />
+          <attvalue for="7" value="0.015766604593420237" />
+          <attvalue for="8" value="0.19515211640211635" />
+          <attvalue for="9" value="0.06711461215930947" />
+          <attvalue for="10" value="1" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="4" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="WATTS.SN" label="Watt's SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="12.0" />
+        <viz:position x="342.52680841793216" y="23.935468251311963" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="4" />
+          <attvalue for="6" value="4" />
+          <attvalue for="7" value="0.017130910663286758" />
+          <attvalue for="8" value="0.18497354497354498" />
+          <attvalue for="9" value="0.0004444118472996505" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="1" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+      <node id="ZOFRI.SN" label="Zona Franca de Iquique SA">
+        <viz:color r="42" g="120" b="214" a="1.0" />
+        <viz:size value="4.0" />
+        <viz:position x="-379.92884349741826" y="873.0868673017911" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0" />
+          <attvalue for="4" value="42.857142857142854" />
+          <attvalue for="5" value="0" />
+          <attvalue for="6" value="0" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="10" value="0" />
+          <attvalue for="11" value="0" />
+          <attvalue for="12" value="0" />
+          <attvalue for="13" value="0" />
+          <attvalue for="14" value="0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="AAISA.SN" target="EMILIANA.SN" id="0" weight="1.0" />
+      <edge source="ABC.SN" target="CIC.SN" id="1" weight="2.0" />
+      <edge source="ABC.SN" target="EMBONORB.SN" id="2" weight="1.0" />
+      <edge source="AESANDES.SN^D24" target="ANDINAB.SN" id="3" weight="1.0" />
+      <edge source="AGUASA.SN" target="IAM.SN" id="4" weight="1.0" />
+      <edge source="AGUASA.SN" target="NUAM.SN" id="5" weight="1.0" />
+      <edge source="ALMENDRAL.SN" target="ANDINAB.SN" id="6" weight="1.0" />
+      <edge source="ALMENDRAL.SN" target="BANVIDA.SN" id="7" weight="1.0" />
+      <edge source="ALMENDRAL.SN" target="CMPC.SN" id="8" weight="1.0" />
+      <edge source="ALMENDRAL.SN" target="ENTEL.SN" id="9" weight="1.0" />
+      <edge source="ALMENDRAL.SN" target="INVERNOVA.SN" id="10" weight="1.0" />
+      <edge source="ALMENDRAL.SN" target="MINERA.SN" id="11" weight="1.0" />
+      <edge source="ALMENDRAL.SN" target="PASUR.SN" id="12" weight="1.0" />
+      <edge source="ALMENDRAL.SN" target="PUCOBRE.SN" id="13" weight="1.0" />
+      <edge source="ANDINAB.SN" target="AQUACHILE.SN" id="14" weight="1.0" />
+      <edge source="ANDINAB.SN" target="BANVIDA.SN" id="15" weight="1.0" />
+      <edge source="ANDINAB.SN" target="BESALCO.SN" id="16" weight="1.0" />
+      <edge source="ANDINAB.SN" target="BSANTANDER.SN" id="17" weight="1.0" />
+      <edge source="ANDINAB.SN" target="ENELAM.SN" id="18" weight="1.0" />
+      <edge source="ANDINAB.SN" target="MELON.SN" id="19" weight="1.0" />
+      <edge source="ANDINAB.SN" target="PARAUCO.SN" id="20" weight="1.0" />
+      <edge source="ANDINAB.SN" target="SCOTIABKCL.SN" id="21" weight="2.0" />
+      <edge source="ANTARCHILE.SN" target="BCI.SN" id="22" weight="1.0" />
+      <edge source="ANTARCHILE.SN" target="COPEC.SN" id="23" weight="5.0" />
+      <edge source="ANTARCHILE.SN" target="NUTRAVALOR.SN" id="24" weight="2.0" />
+      <edge source="ANTARCHILE.SN" target="SIEMEL.SN" id="25" weight="3.0" />
+      <edge source="AQUACHILE.SN" target="HIPICO.SN" id="26" weight="1.0" />
+      <edge source="AQUACHILE.SN" target="MANQUEHUE.SN" id="27" weight="1.0" />
+      <edge source="AQUACHILE.SN" target="MELON.SN" id="28" weight="1.0" />
+      <edge source="AQUACHILE.SN" target="RIPLEY.SN" id="29" weight="1.0" />
+      <edge source="BANVIDA.SN" target="PUCOBRE.SN" id="30" weight="1.0" />
+      <edge source="BCI.SN" target="CAP.SN" id="31" weight="1.0" />
+      <edge source="BCI.SN" target="CINTAC.SN" id="32" weight="1.0" />
+      <edge source="BCI.SN" target="COPEC.SN" id="33" weight="1.0" />
+      <edge source="BCI.SN" target="MALLPLAZA.SN" id="34" weight="1.0" />
+      <edge source="BESALCO.SN" target="BSANTANDER.SN" id="35" weight="1.0" />
+      <edge source="BESALCO.SN" target="INDISA.SN" id="36" weight="1.0" />
+      <edge source="BESALCO.SN" target="NUTRAVALOR.SN" id="37" weight="1.0" />
+      <edge source="BETLANDOS.SN^K24" target="HIPICO.SN" id="38" weight="1.0" />
+      <edge source="BETLANDOS.SN^K24" target="TRICAHUE.SN" id="39" weight="1.0" />
+      <edge source="BICECORP.SN" target="COLBUN.SN" id="40" weight="2.0" />
+      <edge source="BICECORP.SN" target="ENTEL.SN" id="41" weight="1.0" />
+      <edge source="BICECORP.SN" target="GASCO.SN" id="42" weight="1.0" />
+      <edge source="BICECORP.SN" target="MINERA.SN" id="43" weight="1.0" />
+      <edge source="BICECORP.SN" target="PASUR.SN" id="44" weight="1.0" />
+      <edge source="BICECORP.SN" target="PAZ.SN" id="45" weight="1.0" />
+      <edge source="BICECORP.SN" target="SOFRUCO.SN" id="46" weight="1.0" />
+      <edge source="BICECORP.SN" target="VOLCAN.SN" id="47" weight="1.0" />
+      <edge source="BINT.SN" target="HFA.SN^E24" id="48" weight="1.0" />
+      <edge source="BINT.SN" target="SANTARITA.SN" id="49" weight="1.0" />
+      <edge source="BINT.SN" target="SONDA.SN" id="50" weight="1.0" />
+      <edge source="BLUMAR.SN" target="LIPIGAS.SN" id="51" weight="1.0" />
+      <edge source="BOLSASTGO.SN" target="NUAM.SN" id="52" weight="4.0" />
+      <edge source="BOLSASTGO.SN" target="WATTS.SN" id="53" weight="1.0" />
+      <edge source="BSANTANDER.SN" target="CONCHATORO.SN" id="54" weight="1.0" />
+      <edge source="BSANTANDER.SN" target="ESSBIOC.SN" id="55" weight="1.0" />
+      <edge source="BSANTANDER.SN" target="ESVALC.SN" id="56" weight="1.0" />
+      <edge source="CALICHERAA.SN" target="CONCHATORO.SN" id="57" weight="1.0" />
+      <edge source="CALICHERAA.SN" target="EMILIANA.SN" id="58" weight="1.0" />
+      <edge source="CALICHERAA.SN" target="NITRATOS.SN" id="59" weight="4.0" />
+      <edge source="CALICHERAA.SN" target="NORTEGRAN.SN" id="60" weight="4.0" />
+      <edge source="CALICHERAA.SN" target="OROBLANCO.SN" id="61" weight="4.0" />
+      <edge source="CALICHERAA.SN" target="POTASIOSA.SN" id="62" weight="6.0" />
+      <edge source="CALICHERAA.SN" target="SQMB.SN" id="63" weight="1.0" />
+      <edge source="CALICHERAA.SN" target="VICONTO.SN" id="64" weight="1.0" />
+      <edge source="CAMANCHACA.SN" target="SALMOCAM.SN" id="65" weight="2.0" />
+      <edge source="CAMPOS.SN" target="IANSA.SN" id="66" weight="3.0" />
+      <edge source="CAP.SN" target="CINTAC.SN" id="67" weight="2.0" />
+      <edge source="CAP.SN" target="INVERCAP.SN" id="68" weight="3.0" />
+      <edge source="CAP.SN" target="MALLPLAZA.SN" id="69" weight="1.0" />
+      <edge source="CAROZZI.SN" target="ELECMETAL.SN" id="70" weight="1.0" />
+      <edge source="CAROZZI.SN" target="GRANADILLA.SN" id="71" weight="1.0" />
+      <edge source="CAROZZI.SN" target="SPORTING.SN" id="72" weight="2.0" />
+      <edge source="CASABLANCA.SN" target="LITORAL TRANSMISION SA" id="73" weight="4.0" />
+      <edge source="CASABLANCA.SN" target="LITORAL.SN" id="74" weight="4.0" />
+      <edge source="CCU.SN" target="CHILE.SN" id="75" weight="2.0" />
+      <edge source="CCU.SN" target="QUINENCO.SN" id="76" weight="1.0" />
+      <edge source="CCU.SN" target="SMSAAM.SN" id="77" weight="2.0" />
+      <edge source="CCU.SN" target="VAPORES.SN" id="78" weight="2.0" />
+      <edge source="CCU.SN" target="VSPT.SN" id="79" weight="3.0" />
+      <edge source="CEMENTOS.SN" target="COPEC.SN" id="80" weight="1.0" />
+      <edge source="CEMENTOS.SN" target="SURALIS SA" id="81" weight="1.0" />
+      <edge source="CENCOMALLS.SN" target="CENCOSUD.SN" id="82" weight="1.0" />
+      <edge source="CENCOMALLS.SN" target="VENTANAS.SN" id="83" weight="1.0" />
+      <edge source="CENCOSUD.SN" target="ENJOY.SN" id="84" weight="1.0" />
+      <edge source="CENCOSUD.SN" target="MASISA.SN" id="85" weight="1.0" />
+      <edge source="CGE.SN" target="CGET.SN" id="86" weight="5.0" />
+      <edge source="CHILE.SN" target="CRUZADOS.SN" id="87" weight="1.0" />
+      <edge source="CHILE.SN" target="QUINENCO.SN" id="88" weight="3.0" />
+      <edge source="CHILE.SN" target="SMSAAM.SN" id="89" weight="2.0" />
+      <edge source="CHILE.SN" target="SQMB.SN" id="90" weight="1.0" />
+      <edge source="CHILE.SN" target="VAPORES.SN" id="91" weight="3.0" />
+      <edge source="CHILE.SN" target="VSPT.SN" id="92" weight="3.0" />
+      <edge source="CIC.SN" target="EMBONORB.SN" id="93" weight="1.0" />
+      <edge source="CINTAC.SN" target="CRISTALES.SN" id="94" weight="1.0" />
+      <edge source="CINTAC.SN" target="ENELDXCH.SN" id="95" weight="1.0" />
+      <edge source="CINTAC.SN" target="ENJOY.SN" id="96" weight="1.0" />
+      <edge source="CINTAC.SN" target="INVERCAP.SN" id="97" weight="1.0" />
+      <edge source="CINTAC.SN" target="MALLPLAZA.SN" id="98" weight="1.0" />
+      <edge source="CINTAC.SN" target="SALFACORP.SN" id="99" weight="1.0" />
+      <edge source="CINTAC.SN" target="SMU.SN" id="100" weight="1.0" />
+      <edge source="CMPC.SN" target="COLBUN.SN" id="101" weight="1.0" />
+      <edge source="CMPC.SN" target="ENTEL.SN" id="102" weight="1.0" />
+      <edge source="CMPC.SN" target="MINERA.SN" id="103" weight="3.0" />
+      <edge source="CMPC.SN" target="PASUR.SN" id="104" weight="3.0" />
+      <edge source="CMPC.SN" target="SECURITY.SN" id="105" weight="1.0" />
+      <edge source="CMPC.SN" target="WATTS.SN" id="106" weight="1.0" />
+      <edge source="COLBUN.SN" target="MINERA.SN" id="107" weight="2.0" />
+      <edge source="COLBUN.SN" target="PASUR.SN" id="108" weight="2.0" />
+      <edge source="COLBUN.SN" target="SURALIS SA" id="109" weight="1.0" />
+      <edge source="COLBUN.SN" target="VOLCAN.SN" id="110" weight="1.0" />
+      <edge source="CONCHATORO.SN" target="EMILIANA.SN" id="111" weight="2.0" />
+      <edge source="CONCHATORO.SN" target="NITRATOS.SN" id="112" weight="1.0" />
+      <edge source="CONCHATORO.SN" target="NORTEGRAN.SN" id="113" weight="1.0" />
+      <edge source="CONCHATORO.SN" target="OROBLANCO.SN" id="114" weight="1.0" />
+      <edge source="CONCHATORO.SN" target="POTASIOSA.SN" id="115" weight="1.0" />
+      <edge source="CONCHATORO.SN" target="SOFRUCO.SN" id="116" weight="1.0" />
+      <edge source="CONCHATORO.SN" target="VICONTO.SN" id="117" weight="3.0" />
+      <edge source="COPEC.SN" target="NUTRAVALOR.SN" id="118" weight="2.0" />
+      <edge source="COPEC.SN" target="PAZ.SN" id="119" weight="1.0" />
+      <edge source="COPEC.SN" target="SIEMEL.SN" id="120" weight="3.0" />
+      <edge source="COPEVAL.SN" target="MASISA.SN" id="121" weight="1.0" />
+      <edge source="COUNTRYA.SN" target="OLDBOYS.SN" id="122" weight="1.0" />
+      <edge source="COVADONGA.SN" target="ESPANOLA.SN" id="123" weight="1.0" />
+      <edge source="COVADONGA.SN" target="INVIESPA.SN" id="124" weight="7.0" />
+      <edge source="COVADONGA.SN" target="NAVARINO.SN" id="125" weight="1.0" />
+      <edge source="COVADONGA.SN" target="UNESPA.SN" id="126" weight="7.0" />
+      <edge source="CRISTALES.SN" target="ELECMETAL.SN" id="127" weight="5.0" />
+      <edge source="CRISTALES.SN" target="ESPANOLA.SN" id="128" weight="1.0" />
+      <edge source="CRISTALES.SN" target="FEPASA.SN" id="129" weight="1.0" />
+      <edge source="CRISTALES.SN" target="FORUS.SN" id="130" weight="1.0" />
+      <edge source="CRISTALES.SN" target="MARINSA.SN" id="131" weight="2.0" />
+      <edge source="CRISTALES.SN" target="NAVARINO.SN" id="132" weight="2.0" />
+      <edge source="CRISTALES.SN" target="QUEMCHI.SN" id="133" weight="3.0" />
+      <edge source="CRISTALES.SN" target="QUILICURA.SN" id="134" weight="2.0" />
+      <edge source="CRISTALES.SN" target="SANTARITA.SN" id="135" weight="4.0" />
+      <edge source="CRISTALES.SN" target="SIEMEL.SN" id="136" weight="1.0" />
+      <edge source="CRISTALES.SN" target="SMU.SN" id="137" weight="1.0" />
+      <edge source="CRISTALES.SN" target="VAPORES.SN" id="138" weight="1.0" />
+      <edge source="CRUZADOS.SN" target="MOLLER.SN" id="139" weight="1.0" />
+      <edge source="DEHESA.SN" target="PAZ.SN" id="140" weight="1.0" />
+      <edge source="EDELPA.SN" target="NIBSA.SN" id="141" weight="1.0" />
+      <edge source="EDELPA.SN" target="PARAUCO.SN" id="142" weight="1.0" />
+      <edge source="EISA.SN" target="FORUS.SN" id="143" weight="1.0" />
+      <edge source="EISA.SN" target="SMSAAM.SN" id="144" weight="1.0" />
+      <edge source="ELECMETAL.SN" target="ESPANOLA.SN" id="145" weight="1.0" />
+      <edge source="ELECMETAL.SN" target="FORUS.SN" id="146" weight="2.0" />
+      <edge source="ELECMETAL.SN" target="MARINSA.SN" id="147" weight="2.0" />
+      <edge source="ELECMETAL.SN" target="NAVARINO.SN" id="148" weight="1.0" />
+      <edge source="ELECMETAL.SN" target="QUEMCHI.SN" id="149" weight="3.0" />
+      <edge source="ELECMETAL.SN" target="QUILICURA.SN" id="150" weight="1.0" />
+      <edge source="ELECMETAL.SN" target="SANTARITA.SN" id="151" weight="4.0" />
+      <edge source="ELECMETAL.SN" target="SIEMEL.SN" id="152" weight="1.0" />
+      <edge source="ELECMETAL.SN" target="VAPORES.SN" id="153" weight="1.0" />
+      <edge source="EMBONORB.SN" target="ENJOY.SN" id="154" weight="1.0" />
+      <edge source="EMBONORB.SN" target="ESSBIOC.SN" id="155" weight="1.0" />
+      <edge source="EMBONORB.SN" target="ESVALC.SN" id="156" weight="1.0" />
+      <edge source="EMBONORB.SN" target="GOLF.SN" id="157" weight="1.0" />
+      <edge source="EMBONORB.SN" target="STMCHB.SN" id="158" weight="1.0" />
+      <edge source="EMILIANA.SN" target="NITRATOS.SN" id="159" weight="1.0" />
+      <edge source="EMILIANA.SN" target="NORTEGRAN.SN" id="160" weight="1.0" />
+      <edge source="EMILIANA.SN" target="OROBLANCO.SN" id="161" weight="1.0" />
+      <edge source="EMILIANA.SN" target="POTASIOSA.SN" id="162" weight="1.0" />
+      <edge source="EMILIANA.SN" target="VICONTO.SN" id="163" weight="3.0" />
+      <edge source="ENAEX.SN" target="FEPASA.SN" id="164" weight="1.0" />
+      <edge source="ENAEX.SN" target="HIPODROMOA.SN" id="165" weight="1.0" />
+      <edge source="ENAEX.SN" target="LASCONDES.SN" id="166" weight="1.0" />
+      <edge source="ENAEX.SN" target="SK.SN" id="167" weight="2.0" />
+      <edge source="ENAEX.SN" target="VENTANAS.SN" id="168" weight="2.0" />
+      <edge source="ENELCHILE.SN" target="IAM.SN" id="169" weight="1.0" />
+      <edge source="ENELCHILE.SN" target="UNIONGOLF.SN" id="170" weight="1.0" />
+      <edge source="ENJOY.SN" target="ESSBIOC.SN" id="171" weight="1.0" />
+      <edge source="ENJOY.SN" target="ESVALC.SN" id="172" weight="1.0" />
+      <edge source="ENJOY.SN" target="ITAUCL.SN" id="173" weight="1.0" />
+      <edge source="ENJOY.SN" target="MASISA.SN" id="174" weight="1.0" />
+      <edge source="ENJOY.SN" target="PARAUCO.SN" id="175" weight="1.0" />
+      <edge source="ENJOY.SN" target="SALFACORP.SN" id="176" weight="1.0" />
+      <edge source="ENJOY.SN" target="STMCHB.SN" id="177" weight="1.0" />
+      <edge source="ENLASA.SN" target="FEPASA.SN" id="178" weight="1.0" />
+      <edge source="ENLASA.SN" target="POLO.SN" id="179" weight="1.0" />
+      <edge source="ENLASA.SN" target="SK.SN" id="180" weight="1.0" />
+      <edge source="ENTEL.SN" target="MINERA.SN" id="181" weight="1.0" />
+      <edge source="ENTEL.SN" target="PASUR.SN" id="182" weight="1.0" />
+      <edge source="ENTEL.SN" target="PUCOBRE.SN" id="183" weight="2.0" />
+      <edge source="ENTEL.SN" target="STMCHB.SN" id="184" weight="1.0" />
+      <edge source="ENTEL.SN" target="VOLCAN.SN" id="185" weight="1.0" />
+      <edge source="ESPANOLA.SN" target="INVIESPA.SN" id="186" weight="1.0" />
+      <edge source="ESPANOLA.SN" target="NAVARINO.SN" id="187" weight="1.0" />
+      <edge source="ESPANOLA.SN" target="UNESPA.SN" id="188" weight="1.0" />
+      <edge source="ESSBIOC.SN" target="ESVALC.SN" id="189" weight="8.0" />
+      <edge source="ESSBIOC.SN" target="STMCHB.SN" id="190" weight="3.0" />
+      <edge source="ESVALC.SN" target="STMCHB.SN" id="191" weight="3.0" />
+      <edge source="FALABELLA.SN" target="MALLPLAZA.SN" id="192" weight="1.0" />
+      <edge source="FEPASA.SN" target="SK.SN" id="193" weight="1.0" />
+      <edge source="FEPASA.SN" target="VENTANAS.SN" id="194" weight="2.0" />
+      <edge source="FERIAOSOR.SN" target="IANSA.SN" id="195" weight="1.0" />
+      <edge source="FORUS.SN" target="SANTARITA.SN" id="196" weight="1.0" />
+      <edge source="FORUS.SN" target="SMSAAM.SN" id="197" weight="1.0" />
+      <edge source="FOSFOROS.SN" target="FROWARD.SN" id="198" weight="1.0" />
+      <edge source="FOSFOROS.SN" target="NAVIERA.SN" id="199" weight="1.0" />
+      <edge source="FROWARD.SN" target="NAVIERA.SN" id="200" weight="4.0" />
+      <edge source="FROWARD.SN" target="SCHWAGER.SN" id="201" weight="1.0" />
+      <edge source="GASCO.SN" target="GASCOINV.SN" id="202" weight="3.0" />
+      <edge source="GASCO.SN" target="ILC.SN" id="203" weight="1.0" />
+      <edge source="GRANADILLA.SN" target="SPORTING.SN" id="204" weight="1.0" />
+      <edge source="HABITAT.SN" target="SOPROCAL.SN" id="205" weight="1.0" />
+      <edge source="HABITAT.SN" target="TRICOT.SN" id="206" weight="1.0" />
+      <edge source="HIPODROMOA.SN" target="ILC.SN" id="207" weight="1.0" />
+      <edge source="HIPODROMOA.SN" target="LASCONDES.SN" id="208" weight="1.0" />
+      <edge source="HITES.SN" target="PAZ.SN" id="209" weight="1.0" />
+      <edge source="HITES.SN" target="SONDA.SN" id="210" weight="1.0" />
+      <edge source="IAM.SN" target="MOLYMET.SN" id="211" weight="1.0" />
+      <edge source="IAM.SN" target="UNIONGOLF.SN" id="212" weight="1.0" />
+      <edge source="INDISA.SN" target="MOLLER.SN" id="213" weight="1.0" />
+      <edge source="INDISA.SN" target="NUTRAVALOR.SN" id="214" weight="1.0" />
+      <edge source="INDISA.SN" target="RIPLEY.SN" id="215" weight="1.0" />
+      <edge source="INVERNOVA.SN" target="POLPAICO.SN" id="216" weight="1.0" />
+      <edge source="INVERNOVA.SN" target="PUCOBRE.SN" id="217" weight="1.0" />
+      <edge source="INVIESPA.SN" target="NAVARINO.SN" id="218" weight="1.0" />
+      <edge source="INVIESPA.SN" target="UNESPA.SN" id="219" weight="7.0" />
+      <edge source="ISANPA.SN" target="MELON.SN" id="220" weight="4.0" />
+      <edge source="LIPIGAS.SN" target="POLPAICO.SN" id="221" weight="1.0" />
+      <edge source="LITORAL TRANSMISION SA" target="LITORAL.SN" id="222" weight="5.0" />
+      <edge source="LTM.SN" target="SQMB.SN" id="223" weight="1.0" />
+      <edge source="MARINSA.SN" target="NAVARINO.SN" id="224" weight="3.0" />
+      <edge source="MARINSA.SN" target="QUEMCHI.SN" id="225" weight="3.0" />
+      <edge source="MARINSA.SN" target="QUILICURA.SN" id="226" weight="1.0" />
+      <edge source="MARINSA.SN" target="SANTARITA.SN" id="227" weight="2.0" />
+      <edge source="MARINSA.SN" target="SIEMEL.SN" id="228" weight="1.0" />
+      <edge source="MASISA.SN" target="MELON.SN" id="229" weight="1.0" />
+      <edge source="MASISA.SN" target="PROVIDA.SN" id="230" weight="1.0" />
+      <edge source="MASISA.SN" target="SMU.SN" id="231" weight="1.0" />
+      <edge source="MELON.SN" target="PROVIDA.SN" id="232" weight="1.0" />
+      <edge source="MINERA.SN" target="PASUR.SN" id="233" weight="5.0" />
+      <edge source="MOLYMET.SN" target="PAZ.SN" id="234" weight="1.0" />
+      <edge source="MOLYMET.SN" target="SCOTIABKCL.SN" id="235" weight="1.0" />
+      <edge source="MOLYMET.SN" target="SK.SN" id="236" weight="1.0" />
+      <edge source="MULTIX.SN" target="SPORTFRAN.SN" id="237" weight="1.0" />
+      <edge source="MULTIX.SN" target="VSPT.SN" id="238" weight="1.0" />
+      <edge source="NAVARINO.SN" target="QUEMCHI.SN" id="239" weight="2.0" />
+      <edge source="NAVARINO.SN" target="QUILICURA.SN" id="240" weight="1.0" />
+      <edge source="NAVARINO.SN" target="SANTARITA.SN" id="241" weight="1.0" />
+      <edge source="NAVARINO.SN" target="SIEMEL.SN" id="242" weight="1.0" />
+      <edge source="NAVARINO.SN" target="UNESPA.SN" id="243" weight="1.0" />
+      <edge source="NAVIERA.SN" target="SCHWAGER.SN" id="244" weight="1.0" />
+      <edge source="NITRATOS.SN" target="NORTEGRAN.SN" id="245" weight="5.0" />
+      <edge source="NITRATOS.SN" target="OROBLANCO.SN" id="246" weight="4.0" />
+      <edge source="NITRATOS.SN" target="POTASIOSA.SN" id="247" weight="4.0" />
+      <edge source="NITRATOS.SN" target="SQMB.SN" id="248" weight="1.0" />
+      <edge source="NITRATOS.SN" target="VICONTO.SN" id="249" weight="1.0" />
+      <edge source="NORTEGRAN.SN" target="OROBLANCO.SN" id="250" weight="3.0" />
+      <edge source="NORTEGRAN.SN" target="POTASIOSA.SN" id="251" weight="4.0" />
+      <edge source="NORTEGRAN.SN" target="SQMB.SN" id="252" weight="1.0" />
+      <edge source="NORTEGRAN.SN" target="VICONTO.SN" id="253" weight="1.0" />
+      <edge source="NTGCLGAS.SN" target="PREVISION.SN" id="254" weight="1.0" />
+      <edge source="NUAM.SN" target="WATTS.SN" id="255" weight="1.0" />
+      <edge source="NUTRAVALOR.SN" target="SIEMEL.SN" id="256" weight="2.0" />
+      <edge source="OROBLANCO.SN" target="POTASIOSA.SN" id="257" weight="4.0" />
+      <edge source="OROBLANCO.SN" target="SQMB.SN" id="258" weight="1.0" />
+      <edge source="OROBLANCO.SN" target="VICONTO.SN" id="259" weight="1.0" />
+      <edge source="OXIQUIM.SN" target="SOCOVESA.SN" id="260" weight="1.0" />
+      <edge source="PARAUCO.SN" target="SCOTIABKCL.SN" id="261" weight="1.0" />
+      <edge source="PARAUCO.SN" target="SONDA.SN" id="262" weight="1.0" />
+      <edge source="PAZ.SN" target="SCOTIABKCL.SN" id="263" weight="1.0" />
+      <edge source="PAZ.SN" target="SONDA.SN" id="264" weight="1.0" />
+      <edge source="POTASIOSA.SN" target="SQMB.SN" id="265" weight="1.0" />
+      <edge source="POTASIOSA.SN" target="VICONTO.SN" id="266" weight="1.0" />
+      <edge source="PREVISION.SN" target="SECURITY.SN" id="267" weight="3.0" />
+      <edge source="PROVIDA.SN" target="VICONTO.SN" id="268" weight="1.0" />
+      <edge source="PUCOBRE.SN" target="SK.SN" id="269" weight="1.0" />
+      <edge source="PUCOBRE.SN" target="WATTS.SN" id="270" weight="1.0" />
+      <edge source="QUEMCHI.SN" target="QUILICURA.SN" id="271" weight="1.0" />
+      <edge source="QUEMCHI.SN" target="SANTARITA.SN" id="272" weight="3.0" />
+      <edge source="QUEMCHI.SN" target="SIEMEL.SN" id="273" weight="1.0" />
+      <edge source="QUEMCHI.SN" target="VAPORES.SN" id="274" weight="1.0" />
+      <edge source="QUILICURA.SN" target="SANTARITA.SN" id="275" weight="1.0" />
+      <edge source="QUILICURA.SN" target="SIEMEL.SN" id="276" weight="1.0" />
+      <edge source="QUINENCO.SN" target="SMSAAM.SN" id="277" weight="1.0" />
+      <edge source="QUINENCO.SN" target="SQMB.SN" id="278" weight="1.0" />
+      <edge source="QUINENCO.SN" target="VAPORES.SN" id="279" weight="2.0" />
+      <edge source="QUINENCO.SN" target="VSPT.SN" id="280" weight="1.0" />
+      <edge source="REBRISAA.SN" target="TRICAHUE.SN" id="281" weight="1.0" />
+      <edge source="RIPLEY.SN" target="UNIONGOLF.SN" id="282" weight="1.0" />
+      <edge source="SALFACORP.SN" target="SALMOCAM.SN" id="283" weight="1.0" />
+      <edge source="SANTARITA.SN" target="SIEMEL.SN" id="284" weight="1.0" />
+      <edge source="SANTARITA.SN" target="SONDA.SN" id="285" weight="1.0" />
+      <edge source="SANTARITA.SN" target="VAPORES.SN" id="286" weight="1.0" />
+      <edge source="SK.SN" target="VENTANAS.SN" id="287" weight="1.0" />
+      <edge source="SMSAAM.SN" target="VAPORES.SN" id="288" weight="1.0" />
+      <edge source="SMSAAM.SN" target="VSPT.SN" id="289" weight="1.0" />
+      <edge source="SOFRUCO.SN" target="VENTANAS.SN" id="290" weight="1.0" />
+      <edge source="SOFRUCO.SN" target="VICONTO.SN" id="291" weight="1.0" />
+      <edge source="SOPROCAL.SN" target="TRICOT.SN" id="292" weight="1.0" />
+      <edge source="SQMB.SN" target="VAPORES.SN" id="293" weight="1.0" />
+      <edge source="VAPORES.SN" target="VSPT.SN" id="294" weight="2.0" />
+    </edges>
+  </graph>
+</gexf>

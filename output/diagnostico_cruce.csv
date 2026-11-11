@@ -1,0 +1,26 @@
+﻿seccion,concepto,valor
+Limpieza,Filas en board,24642
+Limpieza,Empresa-año en board,3026
+Limpieza,Filas CEO excluidas,3026
+Limpieza,Filas sin CEO,21616
+Limpieza,Duplicados director-empresa-año eliminados,0
+Limpieza,Filas finales director-empresa-año,21616
+Limpieza,Empresa-año en la base sin CEO,3026
+Limpieza,Empresas distintas,255
+Limpieza,Empresas con '^' (dejaron de transarse),73
+Limpieza,Directores distintos (sin CEO),2692
+Limpieza,Directores distintos sin RUT,385
+Limpieza,Filas con director sin RUT,1392
+Limpieza,Filas con género faltante (sin CEO),0
+Cruce de políticos,Filas en hoja Cruce,1413
+Cruce de políticos,Filas del cruce que calzan con board (firm_iden + fiscal_year + director_iden),1413
+Cruce de políticos,Filas del cruce que NO calzan con board,0
+Cruce de políticos,Filas del cruce involucradas en duplicados (misma llave),4
+Cruce de políticos,Filas únicas director-empresa-año del cruce,1411
+Cruce de políticos,Personas distintas en el cruce (ID_persona),129
+Cruce de políticos,RUT distintos en el cruce,128
+Cruce de políticos,Filas del cruce con pasado político = 1,1206
+Cruce de políticos,Filas del cruce con rol CEO (se pierden al sacar CEO),17
+Cruce de políticos,  de ellas con pasado político = 1,2
+Cruce de políticos,Filas únicas del cruce que quedan sin CEO,1394
+Cruce de políticos,  de ellas con pasado político = 1,1202
